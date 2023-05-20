@@ -1,5 +1,5 @@
 ATTACHMENT.Base = "att_sight"
-ATTACHMENT.Name = "def"
+
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
