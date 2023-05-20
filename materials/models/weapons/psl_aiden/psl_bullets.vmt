@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	$basetexture				"models\weapons\psl_aiden\jericho_black_d"
+	$bumpmap					"models\weapons\psl_aiden\jericho_black_n"
+              "$phongexponenttexture"		"models\weapons\psl_aiden\jericho_black_s"
+                  $phongwarptexture			"models\weapons\psl_aiden\phongwarp_bullet"
+                "$color2"					"[0.225 0.225 0.225]"
+//	"$color2"					"[0.05 0.05 0.05]"
+        $normalmapalphaenvmapmask	"0"
+	$envmap						env_cubemap
+	$envmaptint          "[0.05 0.025 0]"
+              $envmapfresnel		"1"			
+	$phong						1
+	$phongexponent				10.5
+	$phongboost					8.25
+	$phongfresnelranges             "[.3 4 5]"
+        $rimmask					"1"
+        $rimlightexponent			"45"	
+	$rimlight					"1"
+	$rimlightboost		"2.20"
+        $nocull "1"
+        $phongalbedotint			"1"
+        $detail "metal4"
+        $detailblendfactor 1.25
+        $detailblendmode 0
+}
