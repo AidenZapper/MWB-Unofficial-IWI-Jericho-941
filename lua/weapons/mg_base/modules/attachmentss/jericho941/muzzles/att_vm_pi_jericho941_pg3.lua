@@ -1,4 +1,5 @@
-ATTACHMENT.Base = "attachment_vm_pi_mike1911_muzzlebrake"
+ATTACHMENT.Base = "wp_pg3"
+ATTACHMENT.Name = "Port Gen 3"
 
 ATTACHMENT.VElement = {
     Bone     = "tag_reflex",

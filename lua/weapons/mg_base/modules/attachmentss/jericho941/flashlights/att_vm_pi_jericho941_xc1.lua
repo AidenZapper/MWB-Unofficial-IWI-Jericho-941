@@ -3,7 +3,7 @@ ATTACHMENT.ExcludedCategories = {"Lasers"}
 
 ATTACHMENT.VElement = {
     Bone     = "tag_laser_attach",
-    Position = Vector(0, 0.85, 0.34),
+    Position = Vector(0, 0.85, 0.45),
     Angles   = Angle(0, 0, 180),
     Offsets  = {},
 }

@@ -20,37 +20,14 @@ function SWEP:doSuppressorStats()
 end
 
 SWEP.Customization = {
-
     {"att_perk", "att_vm_pi_mike9_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_fastswap", "att_perk_headshot"},
-
-  --  {"att_receiver"},
-
+    --  {"att_receiver"},
     {"attachment_vm_pi_jericho941_mag"},
-    
-  --  {"attachment_vm_pi_mike9_pgrip",
-  --   "attachment_vm_pi_mike9_pstlgrpcust", "attachment_vm_pi_mike9_pstlgrplght"},
-
-  --  {"att_grip", "attachment_vm_pi_mike9_gripvert"},
-
-  --  {"att_stock", "attachment_vm_pi_mike9_stock"},
-
-    {"att_muzzle", "att_vm_breacher01", "att_vm_breacher02", "att_vm_pi_jericho941_flashhider01_pstl", "att_vm_pi_jericho941_muzzlebrake01_pstl", "att_vm_pi_jericho941_mike1911_compensator", "att_vm_pi_jericho941_compensator01_pstl", "att_vm_shared_mike9_compensator",
-	"att_vm_oil_filter_suppressor", "att_vm_silencer01_pstl", "att_vm_silencer02_pstl", "att_vm_silencer04_pstl", "attachment_vm_pi_papa320_silencer",
-	
-	"att_vm_pi_jericho941_ab", "wp_ad9", "att_vm_pi_jericho941_cs", "wp_dg33", "att_vm_pi_jericho941_g4", "att_vm_pi_jericho941_lwc", "wp_shared_pg3", "wp_ttfx", "wp_ttfx_1", "wp_atlas7", "wp_red", "wp_shared_k556", "wp_sil_kac_nt4", "wp_sil_kac_qdc"},
-
-    {"arr_vm_jericho941_ironsights", "att_vm_pi_jericho941_minireddot01", "att_vm_pi_jericho941_minireddot02", "att_vm_pi_jericho941_minireddot03", "att_vm_pi_jericho941_r3", "att_vm_pi_jericho941_rmr"},
-	
+    {"att_muzzle", "att_vm_breacher01", "att_vm_breacher02", "att_vm_pi_jericho941_flashhider01_pstl", "att_vm_pi_jericho941_muzzlebrake01_pstl", "att_vm_pi_jericho941_compensator01_pstl", "att_vm_oil_filter_suppressor", "att_vm_silencer01_pstl", "att_vm_silencer02_pstl", "att_vm_silencer04_pstl", "attachment_vm_pi_papa320_silencer", "att_vm_pi_jericho941_ab", "att_vm_pi_jericho941_k556", "att_vm_pi_jericho941_pg3", "wp_ad9", "att_vm_pi_jericho941_cs", "wp_dg33", "att_vm_pi_jericho941_g4", "att_vm_pi_jericho941_lwc", "wp_ttfx", "wp_ttfx_1", "wp_atlas7", "wp_red", "wp_sil_kac_qdc"},
+    {"att_sight", "att_vm_pi_jericho941_minireddot01", "att_vm_pi_jericho941_minireddot02", "att_vm_pi_jericho941_minireddot03"},
     {"att_skin_shared_base", "att_skin_shared_tan_jericho941"},
-
-  --  {"attachment_vm_pi_mike9_barrel", "attachment_vm_pi_mike9_barrel_black", 
-  --  "attachment_vm_pi_mike9_barlong" , "attachment_vm_pi_mike9_barlight",
-  --  "attachment_vm_pi_mike9_barauto"},
-
-    {"att_laser", "att_vm_pi_jericho941_laser01", "att_vm_pi_jericho941_laser02", "att_vm_pi_jericho941_laser03", "att_vm_pi_jericho941_laser04", 
-	"att_vm_pi_jericho941_laser05", "att_vm_pi_jericho941_laser06"},
-	
-	{"att_base", "att_vm_pi_jericho941_xc1"}
+    {"att_laser", "att_vm_pi_jericho941_laser01", "att_vm_pi_jericho941_laser02", "att_vm_pi_jericho941_laser03"},
+    {"att_base", "att_vm_pi_jericho941_xc1"}
 }
 
 --NECESSARY: it loads custom attachments from other authors

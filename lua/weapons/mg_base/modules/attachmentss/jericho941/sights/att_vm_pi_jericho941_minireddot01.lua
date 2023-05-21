@@ -1,4 +1,4 @@
-ATTACHMENT.Base = "att_vm_minireddot03"
+ATTACHMENT.Base = "att_vm_minireddot01"
 
 ATTACHMENT.ExcludedAttachments = {"wp_shared_ad9"}
 
@@ -7,8 +7,8 @@ ATTACHMENT.Bodygroups = {
 }
 
 ATTACHMENT.VElement = {
-    Bone     = "j_slide",
-    Position = Vector(0, -2.65, 0.18),
+    Bone     = "tag_reflex",
+    Position = Vector(0, -1, -0.5),
     Angles   = Angle(0, 0, 0),
     Offsets  = {},
 }

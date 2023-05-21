@@ -20,7 +20,7 @@ SWEP.Category = "Modern Warfare - Customs"
 SWEP.SubCategory = "Pistols"
 SWEP.Spawnable = true
 SWEP.VModel = Model("models/weapons/mwcustom/v_mwu_jericho941.mdl")
-SWEP.WorldModel = Model("models/viper/mw/weapons/w_m9.mdl")
+SWEP.WorldModel = Model("models/weapons/mwcustom/w_jericho941.mdl")
 SWEP.Slot = 1
 SWEP.HoldType = "Pistol"
  
@@ -117,14 +117,14 @@ SWEP.Zoom = {
 
 SWEP.WorldModelOffsets = {
     Bone = "tag_pistol_offset", 
-    Angles = Angle(0, 0, 180),
-    Pos = Vector(12.5, -1, -3.3)
+    Angles = Angle(-90, 0, -90),
+    Pos = Vector(-0.2, 2.4, 0.3)
 }
 
 SWEP.ViewModelOffsets = { 
     Aim = { 
-        Angles = Angle(-1.7, 0, 0),
-        Pos = Vector(0.15, -2, -0.05)
+        Angles = Angle(-1.45, 0, 0),
+        Pos = Vector(0.17, -2.9, -0.403)
     }, 
     Idle = { 
         Angles = Angle(0, 0, 0),
@@ -147,4 +147,17 @@ SWEP.ViewModelOffsets = {
  
 SWEP.Shell = "mwb_shelleject_9mm"
   
-SWEP.GripPoseParameters = {"grip_offset"}  
+SWEP.GripPoseParameters = {"grip_offset"} 
+
+
+DEFINE_BASECLASS("mg_base")
+function SWEP:PostAttachment(att)
+    BaseClass.PostAttachment(self, att)
+
+    if (!self:HasAttachment("att_sight")) then
+        if (att.Category == "Sights") then
+self.ViewModelOffsets.Aim.Pos = self.ViewModelOffsets.Aim.Pos + Vector(0, 0, -0.15)
+self.ViewModelOffsets.Aim.Angles = self.ViewModelOffsets.Aim.Angles + Angle(1.34, 0, 0)
+       end
+   end
+end
