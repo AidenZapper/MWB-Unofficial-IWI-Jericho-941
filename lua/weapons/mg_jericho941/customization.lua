@@ -22,7 +22,7 @@ end
 SWEP.Customization = {
     {"att_perk", "att_vm_pi_mike9_soh", "att_perk_fmj", "att_perk_ricochet", "att_perk_fastswap", "att_perk_headshot"},
     --  {"att_receiver"},
-    {"attachment_vm_pi_jericho941_mag"},
+    {"attachment_vm_pi_jericho941_mag", "attachment_vm_pi_mike9_xmags", "attachment_vm_pi_mike9_xmagslrg"},
     {"att_muzzle", "att_vm_breacher01", "att_vm_breacher02", "att_vm_pi_jericho941_flashhider01_pstl", "att_vm_pi_jericho941_muzzlebrake01_pstl", "att_vm_pi_jericho941_compensator01_pstl", "att_vm_oil_filter_suppressor", "att_vm_silencer01_pstl", "att_vm_silencer02_pstl", "att_vm_silencer04_pstl", "attachment_vm_pi_papa320_silencer", "att_vm_pi_jericho941_ab", "att_vm_pi_jericho941_k556", "att_vm_pi_jericho941_pg3", "wp_ad9", "att_vm_pi_jericho941_cs", "wp_dg33", "att_vm_pi_jericho941_g4", "att_vm_pi_jericho941_lwc", "wp_ttfx", "wp_ttfx_1", "wp_atlas7", "wp_red", "wp_sil_kac_qdc"},
     {"att_sight", "att_vm_pi_jericho941_minireddot01", "att_vm_pi_jericho941_minireddot02", "att_vm_pi_jericho941_minireddot03"},
     {"att_skin_shared_base", "att_skin_shared_tan_jericho941"},

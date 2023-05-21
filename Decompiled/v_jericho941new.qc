@@ -40,7 +40,7 @@ $attachment "silencer" "tag_silencer" 0 0 0 rotate 0 0 0
 $attachment "scope" "tag_scope" 0 0 0 rotate 0 0 0
 $attachment "acog" "tag_acog_2" 0 0 0 rotate 0 0 0
 $attachment "holo" "tag_holo" 0 0 0 rotate 0 0 0
-$attachment "align" "tag_align_gun" 0 0 0.3 rotate 0 0 0
+//$attachment "align" "tag_align_gun" 0 0 0.3 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
@@ -252,6 +252,8 @@ $definebone "j_thumb_le_4" "j_thumb_le_3" 0.599886 0.400187 -0.000027 -0.000021 
 $definebone "j_thumb_ri_4" "j_thumb_ri_3" 0.599886 0.400187 0.000031 -0.000019 -179.999978 0.000003 0 0 0 0 0 0
 $definebone "j_index_le_4" "j_index_le_3" 0.599503 0.400692 0.000235 0.000009 -0.000027 -0.000001 0 0 0 0 0 0
 $definebone "j_index_ri_4" "j_index_ri_3" 0.600399 0.399631 -0.000467 -0.000001 -179.99995 -0.000009 0 0 0 0 0 0
+
+$bonemerge "tag_silencer"
 
 $bonemerge "tag_origin"
 $bonemerge "tag_view"
@@ -1242,9 +1244,9 @@ $sequence "reload_xmaglrg_fast" {
 	{ event 5004 0 "wfoly_plr_pi_mike9_reload_fast_xmagslrg_01" }
 	{ event 9011 0 "0" }
 	{ event 5004 7 "MW_MagazineDrop.SMG.Metal -20,10,40" }
-	{ event 5004 8 "MWU_JERICHO9415.ExMagOut" }
+	{ event 5004 8 "wfoly_plr_pi_mike9_reload_fast_xmagslrg_02" }
 	{ event 5004 9 "Viewmodel.Small" }
-	{ event 5004 19 "MWU_JERICHO9415.ExMagHit" }
+	{ event 5004 19 "wfoly_plr_pi_mike9_reload_fast_xmagslrg_03" }
 	{ event 5004 24 "Viewmodel.Medium" }
 	{ event 5004 26 "wfoly_plr_pi_mike9_reload_fast_xmagslrg_04" }
 	{ event 9011 30 "1" }
